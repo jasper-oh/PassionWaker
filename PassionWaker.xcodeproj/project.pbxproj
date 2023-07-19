@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1A8A672A6769280021F952 /* PassionWakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A8A662A6769280021F952 /* PassionWakerApp.swift */; };
+		1F1A8A692A6769280021F952 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A8A682A6769280021F952 /* ContentView.swift */; };
+		1F1A8A6B2A67692A0021F952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1A8A6A2A67692A0021F952 /* Assets.xcassets */; };
+		1F1A8A6F2A67692A0021F952 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1A8A6E2A67692A0021F952 /* Preview Assets.xcassets */; };
+		1F1A8A792A67692B0021F952 /* PassionWakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A8A782A67692B0021F952 /* PassionWakerTests.swift */; };
+		1F1A8A832A67692B0021F952 /* PassionWakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A8A822A67692B0021F952 /* PassionWakerUITests.swift */; };
+		1F1A8A852A67692B0021F952 /* PassionWakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A8A842A67692B0021F952 /* PassionWakerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F1A8A752A67692B0021F952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1A8A5B2A6769280021F952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1A8A622A6769280021F952;
+			remoteInfo = PassionWaker;
+		};
+		1F1A8A7F2A67692B0021F952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1A8A5B2A6769280021F952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1A8A622A6769280021F952;
+			remoteInfo = PassionWaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F1A8A632A6769280021F952 /* PassionWaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassionWaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1A8A662A6769280021F952 /* PassionWakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionWakerApp.swift; sourceTree = "<group>"; };
+		1F1A8A682A6769280021F952 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F1A8A6A2A67692A0021F952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F1A8A6C2A67692A0021F952 /* PassionWaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PassionWaker.entitlements; sourceTree = "<group>"; };
+		1F1A8A6E2A67692A0021F952 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F1A8A742A67692B0021F952 /* PassionWakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassionWakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1A8A782A67692B0021F952 /* PassionWakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionWakerTests.swift; sourceTree = "<group>"; };
+		1F1A8A7E2A67692B0021F952 /* PassionWakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassionWakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1A8A822A67692B0021F952 /* PassionWakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionWakerUITests.swift; sourceTree = "<group>"; };
+		1F1A8A842A67692B0021F952 /* PassionWakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionWakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F1A8A602A6769280021F952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1A8A712A67692B0021F952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1A8A7B2A67692B0021F952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1A8A5A2A6769280021F952 = {
+			isa = PBXGroup;
+			children = (
+				1F1A8A652A6769280021F952 /* PassionWaker */,
+				1F1A8A772A67692B0021F952 /* PassionWakerTests */,
+				1F1A8A812A67692B0021F952 /* PassionWakerUITests */,
+				1F1A8A642A6769280021F952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F1A8A642A6769280021F952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F1A8A632A6769280021F952 /* PassionWaker.app */,
+				1F1A8A742A67692B0021F952 /* PassionWakerTests.xctest */,
+				1F1A8A7E2A67692B0021F952 /* PassionWakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F1A8A652A6769280021F952 /* PassionWaker */ = {
+			isa = PBXGroup;
+			children = (
+				1F1A8A662A6769280021F952 /* PassionWakerApp.swift */,
+				1F1A8A682A6769280021F952 /* ContentView.swift */,
+				1F1A8A6A2A67692A0021F952 /* Assets.xcassets */,
+				1F1A8A6C2A67692A0021F952 /* PassionWaker.entitlements */,
+				1F1A8A6D2A67692A0021F952 /* Preview Content */,
+			);
+			path = PassionWaker;
+			sourceTree = "<group>";
+		};
+		1F1A8A6D2A67692A0021F952 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F1A8A6E2A67692A0021F952 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F1A8A772A67692B0021F952 /* PassionWakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F1A8A782A67692B0021F952 /* PassionWakerTests.swift */,
+			);
+			path = PassionWakerTests;
+			sourceTree = "<group>";
+		};
+		1F1A8A812A67692B0021F952 /* PassionWakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F1A8A822A67692B0021F952 /* PassionWakerUITests.swift */,
+				1F1A8A842A67692B0021F952 /* PassionWakerUITestsLaunchTests.swift */,
+			);
+			path = PassionWakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F1A8A622A6769280021F952 /* PassionWaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1A8A882A67692B0021F952 /* Build configuration list for PBXNativeTarget "PassionWaker" */;
+			buildPhases = (
+				1F1A8A5F2A6769280021F952 /* Sources */,
+				1F1A8A602A6769280021F952 /* Frameworks */,
+				1F1A8A612A6769280021F952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassionWaker;
+			productName = PassionWaker;
+			productReference = 1F1A8A632A6769280021F952 /* PassionWaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F1A8A732A67692B0021F952 /* PassionWakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1A8A8B2A67692B0021F952 /* Build configuration list for PBXNativeTarget "PassionWakerTests" */;
+			buildPhases = (
+				1F1A8A702A67692B0021F952 /* Sources */,
+				1F1A8A712A67692B0021F952 /* Frameworks */,
+				1F1A8A722A67692B0021F952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F1A8A762A67692B0021F952 /* PBXTargetDependency */,
+			);
+			name = PassionWakerTests;
+			productName = PassionWakerTests;
+			productReference = 1F1A8A742A67692B0021F952 /* PassionWakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F1A8A7D2A67692B0021F952 /* PassionWakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1A8A8E2A67692B0021F952 /* Build configuration list for PBXNativeTarget "PassionWakerUITests" */;
+			buildPhases = (
+				1F1A8A7A2A67692B0021F952 /* Sources */,
+				1F1A8A7B2A67692B0021F952 /* Frameworks */,
+				1F1A8A7C2A67692B0021F952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F1A8A802A67692B0021F952 /* PBXTargetDependency */,
+			);
+			name = PassionWakerUITests;
+			productName = PassionWakerUITests;
+			productReference = 1F1A8A7E2A67692B0021F952 /* PassionWakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F1A8A5B2A6769280021F952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1F1A8A622A6769280021F952 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					1F1A8A732A67692B0021F952 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1F1A8A622A6769280021F952;
+					};
+					1F1A8A7D2A67692B0021F952 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1F1A8A622A6769280021F952;
+					};
+				};
+			};
+			buildConfigurationList = 1F1A8A5E2A6769280021F952 /* Build configuration list for PBXProject "PassionWaker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F1A8A5A2A6769280021F952;
+			productRefGroup = 1F1A8A642A6769280021F952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F1A8A622A6769280021F952 /* PassionWaker */,
+				1F1A8A732A67692B0021F952 /* PassionWakerTests */,
+				1F1A8A7D2A67692B0021F952 /* PassionWakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F1A8A612A6769280021F952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1A8A6F2A67692A0021F952 /* Preview Assets.xcassets in Resources */,
+				1F1A8A6B2A67692A0021F952 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1A8A722A67692B0021F952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1A8A7C2A67692B0021F952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F1A8A5F2A6769280021F952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1A8A692A6769280021F952 /* ContentView.swift in Sources */,
+				1F1A8A672A6769280021F952 /* PassionWakerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1A8A702A67692B0021F952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1A8A792A67692B0021F952 /* PassionWakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1A8A7A2A67692B0021F952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1A8A832A67692B0021F952 /* PassionWakerUITests.swift in Sources */,
+				1F1A8A852A67692B0021F952 /* PassionWakerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F1A8A762A67692B0021F952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1A8A622A6769280021F952 /* PassionWaker */;
+			targetProxy = 1F1A8A752A67692B0021F952 /* PBXContainerItemProxy */;
+		};
+		1F1A8A802A67692B0021F952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1A8A622A6769280021F952 /* PassionWaker */;
+			targetProxy = 1F1A8A7F2A67692B0021F952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F1A8A862A67692B0021F952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F1A8A872A67692B0021F952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1F1A8A892A67692B0021F952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PassionWaker/PassionWaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassionWaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JasperCompany.PassionWaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F1A8A8A2A67692B0021F952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PassionWaker/PassionWaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassionWaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JasperCompany.PassionWaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F1A8A8C2A67692B0021F952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JasperCompany.PassionWakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassionWaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PassionWaker";
+			};
+			name = Debug;
+		};
+		1F1A8A8D2A67692B0021F952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JasperCompany.PassionWakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassionWaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PassionWaker";
+			};
+			name = Release;
+		};
+		1F1A8A8F2A67692B0021F952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JasperCompany.PassionWakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassionWaker;
+			};
+			name = Debug;
+		};
+		1F1A8A902A67692B0021F952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JasperCompany.PassionWakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassionWaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1A8A5E2A6769280021F952 /* Build configuration list for PBXProject "PassionWaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1A8A862A67692B0021F952 /* Debug */,
+				1F1A8A872A67692B0021F952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1A8A882A67692B0021F952 /* Build configuration list for PBXNativeTarget "PassionWaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1A8A892A67692B0021F952 /* Debug */,
+				1F1A8A8A2A67692B0021F952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1A8A8B2A67692B0021F952 /* Build configuration list for PBXNativeTarget "PassionWakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1A8A8C2A67692B0021F952 /* Debug */,
+				1F1A8A8D2A67692B0021F952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1A8A8E2A67692B0021F952 /* Build configuration list for PBXNativeTarget "PassionWakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1A8A8F2A67692B0021F952 /* Debug */,
+				1F1A8A902A67692B0021F952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F1A8A5B2A6769280021F952 /* Project object */;
+}
